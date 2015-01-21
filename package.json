@@ -1,7 +1,11 @@
 {
   "name": "301",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A super simple HTTP redirect server",
+  "bin": {
+    "301": "bin/cli.js"
+  },
+  "preferGloabl": true,
   "scripts": {
     "test": "echo 'YOLO' && exit 0"
   },
