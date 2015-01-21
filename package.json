@@ -1,19 +1,21 @@
 {
-  "name": "redirector",
+  "name": "301",
   "version": "0.1.0",
   "description": "A super simple HTTP redirect server",
-  "main": "index.js",
+  "bin":{
+    "
+  },
   "scripts": {
     "test": "echo 'YOLO' && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/markhuge/redirector.git"
+    "url": "https://github.com/markhuge/301.git"
   },
   "author": "Mark Wilkerson <mark@segfawlt.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/markhuge/redirector/issues"
+    "url": "https://github.com/markhuge/301/issues"
   },
-  "homepage": "https://github.com/markhuge/redirector"
+  "homepage": "https://github.com/markhuge/301"
 }

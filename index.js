@@ -9,6 +9,6 @@ http.createServer(handler).listen(port);
 function handler (req, res) {
   var header = proto + '://' + domain + req.url
   console.log("redirecting to:", header);
-  res.writeHead(302, { Location: header });
+  res.writeHead(301, { Location: header });
   res.end();
 }
