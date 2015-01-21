@@ -1,7 +1,6 @@
 # 301
 A super simple HTTP redirection server
 
-# Don't use me yet. I'm being released very quickly for an internal deployment. The useful version of me will be released in a few hours.
 
 ## Install
 
@@ -9,4 +8,10 @@ A super simple HTTP redirection server
 
 ## Usage 
 
-`user@host:$ 301`
+`user@host:$ 301 --port 8080 --domain myshiz.biz `
+
+### Optional Arguments
+
+- port - port service will listen on (default 8080)
+- domain - domain requests will redirect to (default 127.0.0.1)
+- proto - protocol HTTP or HTTPS (default HTTP)
