@@ -1,6 +1,6 @@
 {
   "name": "301",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A super simple HTTP redirect server",
   "bin": {
     "301": "bin/cli.js"
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/markhuge/301.git"
+    "url": "https://github.com/markhuge/301-node.git"
   },
-  "author": "Mark Wilkerson <mark@segfawlt.net>",
+  "author": "Mark Wilkerson <mark@markwilkerson.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/markhuge/301/issues"
+    "url": "https://github.com/markhuge/301-node/issues"
   },
-  "homepage": "https://github.com/markhuge/301",
+  "homepage": "https://github.com/markhuge/301-node",
   "dependencies": {
     "minimist": "1.1.0"
   }
